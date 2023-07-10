@@ -26,5 +26,8 @@ The [auditing-contracts](./auditing-contracts/) repo details 5 common pitfalls w
 4. Timestamp manipulation
 5. Block gas limit vulnerabilities
 
+## Attacks
+1. [Performing Oracle Manipulation (Uniswap V2)](./attacks/oracle-manipulation/)
+
 ## Additional Resources
 * [Web3Sec - Top 20 Smart Contract Security Best Practices](https://blog.web3sec.news/posts/top-20-smart-contract-security-best-practices-checklist/)
