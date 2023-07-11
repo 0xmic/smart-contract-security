@@ -18,3 +18,6 @@ npm install
 ```
 npx hardhat test
 ```
+
+## Mitigating Front Running
+Instead of using the `create2` opcode, use a hash of `msg.sender + nonce`. This is because `msg.sender` is hard-coded and cannot be front-run.

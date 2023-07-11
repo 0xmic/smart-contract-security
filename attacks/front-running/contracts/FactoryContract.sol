@@ -12,6 +12,7 @@ contract FactoryContract {
     {
         require(walletOwner[msg.sender] == address(0), "You already have a wallet");
         bytes memory bytecode = type(Wallet).creationCode;
+
         assembly {
             instance := create2(0, add(bytecode, 0x20), mload(bytecode), salt)
         }
