@@ -26,6 +26,10 @@ The [auditing-contracts](./auditing-contracts/) repo details 5 common pitfalls w
 4. Timestamp manipulation
 5. Block gas limit vulnerabilities
 
+## Tools
+* [Slither](./tools/slither-echidna/): Solidity Static Analysis
+* [Echidna](./tools/slither-echidna/): Smart Contract Fuzzer
+
 ## Attacks
 1. [Oracle Manipulation (Uniswap V2)](./attacks/oracle-manipulation/)
 2. [Front Running](./attacks/front-running/)
